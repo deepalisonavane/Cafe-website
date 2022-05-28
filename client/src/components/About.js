@@ -1,37 +1,55 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col , Image} from "react-bootstrap";
 
 const About = () => {
   return (
     <>
-      <Container style={{ marginTop: "50px" }}>
+      <Container className="container" >
 
       <h1> Who Are We </h1>
       <Row>
           <Col md-4>
             <p>
-            We are the parent company of the Coffee Day Group, which houses Café Coffee Day that pioneered the coffee culture in the chained café segment in India. This coffee goes all over the world to clients across, Europe and Japan, making us one of the top coffee exporters in the country. We opened our first Café Coffee Day outlet in Bengaluru in 1996 , ours was a new vision—one where coffee was more than just a beverage. It was a cup that brought coffee aficionados, budding coffee drinkers, and well, friends together over a cup of freshly brewed coffee. Today, our subsidiary Coffee Day Global Limited has established the largest footprint of café outlets in India-spread across more than 200 cities. Our forays into diverse businesses are marked by the same passion with which we started Coffee Day Global Limited. Our portfolio includes Technology Parks & SEZs, Logistics, Investments, Financial Services and Hospitality.
+            USPizza is all about quality you can trust. As one of the original founding Pizza brands and the 3rd largest Pizza chain in India, our sole mission is making the freshest, tastiest and funnest Pizza around.
 
+Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato pure and mozzarella - cheddar blended cheese.
 
+Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious.
 
+Our newest addition of Puree sauces will blow your mind. Chose between a spicy buffalo, sweet bbq, tangy chipotle can creamy makhni to perfectly compliment your toppings and crust. Our suggestions of combinations might be helpful but ultimately the power lies with you.
+
+Contrary to industry standard strategy, USPizza, since 1996, has been committed to growing our brand slowly and steadily. Every outlet is carefully selected on strict criteria. To be a USPizza franchisee is a privilege unto itself. The same commitment to product and service perfection we practice is expected from our partners.
+
+Our outlets designed by leading architects to reflect our philosophy of being open and inviting, while putting our customer comfort on priority.
+
+Everywhere we go, we hear ‘Your pizza is the tastiest pizza around, why aren’t you open in my location’. The answer is simple, every outlet opened is a promise to our customer, and not one we take lightly.
 
             </p>
           </Col>
           <Col>
-          <img src="./images/banner.jpg"></img>
+          <img src="./images/banner.jpg" height={"400px"}></img>
           </Col>
           </Row>
 
         <h1>Our Specialities</h1>
 
         <Row>
-          <Col >
-          <img src="./images/1.jpg"></img>
-          
-          <img src="./images/3.jpg"></img> 
+          <Col > 
+          <Image src="./images/mar.jpg" height={"400px"} width={"300px"}></Image> 
           </Col>
-        </Row>
-        
+          <Col > 
+          <Image src="./images/farm.jpg" height={"400px"} width={"300px"}></Image> 
+          </Col>
+          <Col > 
+          <Image src="./images/non.jpg" height={"400px"} width={"300px"} ></Image> 
+          </Col>
+          <Col > 
+          <Image src="./images/cheese.jpg" height={"400"} width={"300px"}></Image> 
+          </Col>
+        </Row>&nbsp;
+        <Row  >
+          
+          </Row>
       </Container>
     </>
   );

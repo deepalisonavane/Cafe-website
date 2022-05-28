@@ -1,0 +1,12 @@
+.card{
+     width: "18rem" ;
+      margin-top:"15px" ;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      box-shadow: 5px 10px rgb(255, 243, 230);
+};
+
+Image{
+    border-radius: 500px;
+    height: 300px;
+}
